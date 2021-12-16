@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+
+  <title>Template!</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="main-header">
+        <h1>Games</h1>
+      </div>
+    </div>
+    <div class="row">
+
+      <form class="row g-3" id="addGameForm">
+
+        <div class="col">
+          <label for="gameName">Game</label>
+          <input type="text" class="form-control" id="gameName" placeholder="Game Name ">
+        </div>
+        <div class="col">
+          <label for="GameImg">picture link</label>
+          <input type="text" class="form-control" id="gameImgUrl" placeholder="game Url">
+        </div>
+
+        <div class="row g-3">
+
+          <div class="col">
+            <label for="gameRank" class="form-label">Game rank</label>
+            <input type="range" class="form-range" id="GameRank" min="0.5" max="5" step="0.5">
+          </div>
+        </div>
+
+
+        <div class="Row g-3">
+          <div class="col pt-4">
+            <button type="button" id="addButton" class="btn btn-primary mb-3">Add Game</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="row g-3 p-1" id="gameContainer">
+
+
+    </div>
+
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./Js/cardUI.js"></script>
+<script src="./Js/game.js"></script>
+<script src="./Js/delete.js"></script>
+<script src="./Js/index.js"></script>
+
+</body>
+
+</html>

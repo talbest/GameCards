@@ -1,0 +1,8 @@
+.main-header {
+  text-align: center;
+  background-color: rgba(0.5, 0.5, 0.5, 0.1);
+}
+
+.hidden{
+  display: none;
+}

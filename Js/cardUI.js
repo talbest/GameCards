@@ -7,7 +7,7 @@ function getCardUi(game) {
 
     const innerDiv = document.createElement("div");
     innerDiv.className = "card bg-dark text-white";
-
+///testing for git branch 
 
     const img = document.createElement("img");
     img.src = game.image;
